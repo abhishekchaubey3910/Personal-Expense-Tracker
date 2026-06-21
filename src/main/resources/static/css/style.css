@@ -1,0 +1,84 @@
+/* Custom styles for Expense Tracker */
+
+body {
+    background-color: #f5f6fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: 600;
+}
+
+.table th {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+/* Category badges */
+.badge-food { background-color: #e74c3c; }
+.badge-transport { background-color: #3498db; }
+.badge-shopping { background-color: #9b59b6; }
+.badge-bills { background-color: #e67e22; }
+.badge-entertainment { background-color: #1abc9c; }
+.badge-health { background-color: #2ecc71; }
+.badge-other { background-color: #95a5a6; }
+
+/* Summary cards */
+.summary-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 15px;
+}
+
+.summary-card h5 {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.summary-card .amount {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* Action buttons */
+.btn-action {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+}
+
+/* Hover effect on table rows */
+.table-hover tbody tr:hover {
+    background-color: #eef2ff;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .card-body .row .col-md-3,
+    .card-body .row .col-md-2 {
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    font-size: 0.9rem;
+}
